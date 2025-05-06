@@ -1,0 +1,54 @@
+/* DEFAULTS */
+* {
+	margin: 0;
+	padding: 0;
+    text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+    -moz-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
+}
+
+ul, ol {
+	list-style-position: inside;
+}
+
+
+/* DEBUGGING */
+.db {
+	border: 1px solid lightblue;
+}
+
+/* PAGE CODE */
+body {
+	background-image: url('starfield.jpg');
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+header {
+	padding: 5px;
+	margin-bottom: 10px;
+	background-color: #ffffff;
+	background-image: url('list-bg.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+div.viewing-order {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+div.viewing-order div {
+	margin: 5px;
+	border-radius: 15px;
+	padding: 15px;
+	flex-grow: 1;
+	background-color: #ffffff;
+	background-image: url('list-bg.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}

@@ -1,0 +1,7 @@
+@page { size: A4; }
+
+#navigation, #footer, .no-print { display: none; }
+
+a { display: block;}
+
+a:after{content:" (" attr(href) ")\A ";font-size:0.8em;font-weight:normal;}
